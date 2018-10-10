@@ -18,7 +18,7 @@ describe('Model: Video', () => {
     it('should be required', () => {
       const video = new Video({});
       video.validateSync();
-      assert.strictEqual(video.errors.title.message, 'Title is required.');   
+      assert.strictEqual(video.errors.title.message, 'Title is required.');
     });
   });
 
@@ -33,7 +33,7 @@ describe('Model: Video', () => {
     it('should be required', () => {
       const video = new Video({});
       video.validateSync();
-      assert.strictEqual(video.errors.description.message, 'Description is required.');   
+      assert.strictEqual(video.errors.description.message, 'Description is required.');
     });
   });
 
@@ -48,7 +48,7 @@ describe('Model: Video', () => {
     it('should be required', () => {
       const video = new Video({});
       video.validateSync();
-      assert.strictEqual(video.errors.url.message, 'a URL is required.');   
+      assert.strictEqual(video.errors.url.message, 'a URL is required.');
     });
   });
 });
