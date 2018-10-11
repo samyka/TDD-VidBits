@@ -1,5 +1,5 @@
 const {assert} = require('chai');
-const {connectDatabase, disconnectDatabase} = require('../database-utilities');
+const {connectDatabase, disconnectDatabase} = require('../dagit tabase-utilities');
 const Video = require('../../models/video');
 
 describe('Model: Video', () => {
